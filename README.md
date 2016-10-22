@@ -16,6 +16,8 @@ Obtaining a certificate for a new domain
 ```
 systemctl start letsencrypt@<newdomain>
 ```
+Your cert-data (`fullchain.pem` and `key.pem` by default) is located in `/etc/letsencrypt/<newdomain>/`
+
 Activating renewal for a new domain
 ```
 systemctl start letsencrypt@<newdomain>.timer
