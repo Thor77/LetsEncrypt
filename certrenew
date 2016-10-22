@@ -1,0 +1,16 @@
+#!/bin/bash
+DOMAIN="$1" # DO NOT CHANGE THIS
+EMAIL="you@example.com"
+WEBROOT="/var/www/html"
+
+# create directory for domain (if not exists) and change into it
+mkdir -p $DOMAIN
+cd $DOMAIN
+
+if [ ! -e account_key.json ]; then
+  # create symlink to account_key.json if not exists
+  ln -s $(readlink -f ../account_key.json) account_key.json
+fi
+
+simp_le --email $EMAIL -f account_key.json \
+  -f fullchain.pem -f key.pem -d $DOMAIN --default_root $WEBROOT

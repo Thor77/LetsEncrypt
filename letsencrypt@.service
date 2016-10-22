@@ -1,0 +1,8 @@
+[Unit]
+Description=Renew LetsEncrypt-certificate
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/etc/letsencrypt
+ExecStart=/usr/local/bin/certrenew %i
