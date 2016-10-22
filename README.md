@@ -4,6 +4,7 @@ My Let's Encrypt setup
 ## Assumptions
 * OS using systemd as init-system
 * [`simp_le`](https://github.com/kuba/simp_le) in `$PATH`
+* `account_key.json` (`private_key.json` from [certbot](https://certbot.eff.org/)) in `/etc/letsencrypt/`
 
 ## Installation
 * Copy `certrenew` to `/usr/local/bin/certrenew`
