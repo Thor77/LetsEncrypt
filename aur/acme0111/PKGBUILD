@@ -2,7 +2,7 @@
 # Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Gordian Edenhofer <gordian.edenhofer[at]yahoo[dot]de>
 
-pkgname=python-acme012
+pkgname=python-acme0111
 pkgver=0.11.1
 pkgrel=1
 pkgdesc="ACME protocol implementation in Python"
