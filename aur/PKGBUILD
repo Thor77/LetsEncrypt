@@ -8,7 +8,7 @@ url='https://github.com/zenhack/simp_le'
 license=('GPL')
 makedepends=('git' 'python-setuptools' 'python-setuptools-scm')
 depends=('python' 'ca-certificates' 'python-setuptools' 'python-pip' 'python-wheel' 'python-cryptography' 'python-mock'
-         'python-pyopenssl' 'python-acme015')
+         'python-pyopenssl' 'python-acme')
 source=("$pkgname-$pkgver"::"git+https://github.com/zenhack/simp_le.git")
 md5sums=('SKIP')
 
