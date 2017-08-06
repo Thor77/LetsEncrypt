@@ -1,6 +1,6 @@
 # Maintainer: Thor77 <thor77 at thor77 dot org>
 pkgname=simp_le
-pkgver=0.3.0
+pkgver=0.4.0
 pkgrel=1
 pkgdesc="Simple Let's Encrypt client"
 arch=('any')
