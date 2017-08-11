@@ -3,7 +3,7 @@ My Let's Encrypt setup
 
 ## Assumptions
 * OS using systemd as init-system
-* [`simp_le`](https://github.com/zenhack/simp_le) in `$PATH`
+* [`simp_le`](https://github.com/zenhack/simp_le) in `$PATH` (e.g installed via [`simp_le-git`](https://aur.archlinux.org/packages/simp_le-git/) from the AUR)
 * `account_key.json` (`private_key.json` from [certbot](https://certbot.eff.org/)) in `/etc/letsencrypt/`
 
 ## Installation
